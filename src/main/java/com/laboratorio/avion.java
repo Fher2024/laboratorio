@@ -3,14 +3,14 @@ package com.laboratorio;
 public class moto {
 
 	private String modelo;
-	private String serial;
-	private String placa;
+	private String aerolinea;
+	private int capacidad;
 	
 	
-	public moto(String modelo, String serial, String placa) {
+	public moto(String modelo, String aerolinea, int capacidad) {
 		this.modelo = modelo;
-		this.serial = serial;
-		this.placa = placa;
+		this.aerolinea = aerolinea;
+		this.capaciad = capacidad;
 	}
 	
 	public String getmodelo() {
@@ -20,17 +20,17 @@ public class moto {
 		this.modelo = modelo;
 	}
 
-	public String getserial() {
-		return serial;
+	public String getaerolinea() {
+		return aerolinea;
 	}
-	public void setserial(String serial) {
-		this.serial = serial;
+	public void setaerolinea(int aerolinea) {
+		this.aerolinea = aerolinea;
 	}
-	public String getplaca() {
-		return placa;
+	public int getcapacidad() {
+		return capacidad;
 	}
-	public void setplaca(String placa) {
-		this.placa = placa;
+	public void setcapacidad(int capacidad) {
+		this.capacidad = capacidad;
 	}
 	
 }
