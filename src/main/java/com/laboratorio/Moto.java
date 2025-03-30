@@ -7,7 +7,7 @@ public class Moto {
 	private String placa;
 	
 	
-	public moto(String modelo, String serial, String placa) {
+	public Moto(String modelo, String serial, String placa) {
 		this.modelo = modelo;
 		this.serial = serial;
 		this.placa = placa;
