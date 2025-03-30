@@ -7,7 +7,7 @@ public class Avion {
 	private int capacidad;
 	
 	
-	public moto(String modelo, String aerolinea, int capacidad) {
+	public Avion(String modelo, String aerolinea, int capacidad) {
 		this.modelo = modelo;
 		this.aerolinea = aerolinea;
 		this.capaciad = capacidad;
