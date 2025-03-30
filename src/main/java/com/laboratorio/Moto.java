@@ -5,12 +5,13 @@ public class Moto {
 	private String modelo;
 	private String serial;
 	private String placa;
+	private String seguro;
 	
-	
-	public moto(String modelo, String serial, String placa) {
+	public Moto(String modelo, String serial, String placa) {
 		this.modelo = modelo;
 		this.serial = serial;
 		this.placa = placa;
+		this.seguro = seguro;
 	}
 	
 	public String getmodelo() {
@@ -33,4 +34,10 @@ public class Moto {
 		this.placa = placa;
 	}
 	
+	public String getseguro() {
+		return seguro;
+	}
+	public void setseguro(String seguro) {
+		this.seguro = seguro;
+	}
 }
