@@ -1,6 +1,6 @@
 package com.laboratorio;
 
-public class moto {
+public class Avion {
 
 	private String modelo;
 	private String aerolinea;
