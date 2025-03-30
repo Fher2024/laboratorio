@@ -10,7 +10,7 @@ public class Avion {
 	public Avion(String modelo, String aerolinea, int capacidad) {
 		this.modelo = modelo;
 		this.aerolinea = aerolinea;
-		this.capaciad = capacidad;
+		this.capacidad = capacidad;
 	}
 	
 	public String getmodelo() {
@@ -23,7 +23,7 @@ public class Avion {
 	public String getaerolinea() {
 		return aerolinea;
 	}
-	public void setaerolinea(int aerolinea) {
+	public void setaerolinea(String aerolinea) {
 		this.aerolinea = aerolinea;
 	}
 	public int getcapacidad() {
