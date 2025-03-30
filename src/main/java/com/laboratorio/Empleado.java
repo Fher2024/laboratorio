@@ -73,5 +73,18 @@ public class Empleado {
     public String toString() {
         return "Empleado [name=" + name + ", id=" + id + ", salary=" + salary + "]";
     }
+    /*
+     * Metodo para agregar un empleado
+     */
+    public void add(Empleado empleado) {
+        throw new UnsupportedOperationException("Unimplemented method 'add'");
+    }
+
+    /*
+     * Metodo para eliminar un empleado
+     */
+    public void remove(Empleado empleado) {
+        throw new UnsupportedOperationException("Unimplemented method 'remove'");
+    }
 
 }

@@ -89,5 +89,20 @@ public class Cliente {
     public String toString() {
         return "Cliente [name=" + name + ", id=" + id + ", address=" + address + ", edad=" + edad + "]";
     }
+    
+    /*
+     * Metodo para agregar un cliente
+     */
+    public void add(Cliente cliente) {
+        throw new UnsupportedOperationException("Unimplemented method 'add'");
+    }
+
+    /*
+     * Metodo para eliminar un cliente
+     */
+    public void remove(Cliente cliente) {
+        throw new UnsupportedOperationException("Unimplemented method 'remove'");
+    }
+
 
 }
